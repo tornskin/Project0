@@ -1,0 +1,39 @@
+.midbox {
+    text-align: center;
+    padding-top: 20px;
+}
+img {
+    display: block;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: aquamarine; */
+    max-height: 800px;
+}
+header {
+    padding-bottom: 200px;
+}
+form > div{
+padding: 15px;
+}
+.inputBox {
+    height: 46px;
+    width: 50%;
+    border-radius: 23px;
+    background-color: white;
+    background-image: url(images/search-24px.svg);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    outline: none;
+}
+footer {
+    text-align: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
