@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Image search</title>
-    </head>
-    <body>
-        <div>
-            <form action="http://images.google.com/images">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-            </form>
-        </div>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" href="index.html">Google Search</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="imageHolder">
+                <img src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+                <div class="caption">Images</div>
+            </div>
+            <div class="midbox">
+                <form action="http://images.google.com/images">
+                    <div>
+                        <input class="inputBox" type="text" name="q">
+                    </div>
+                    <div>
+                        <input type="submit" name=btnK button type="button" class="btn btn-outline-dark"
+                            value="Image Search">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            Google offered in: <a href="https://google.com/search">Polish</a>
+        </footer>
+    </div>
+
+</body>
+
 </html>
