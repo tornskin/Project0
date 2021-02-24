@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+main {
+    margin-left: 45px;
+    margin-top: 40px;
+    margin-right: 45px;
+}
+.advSrchBar{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 9, 9);
+}
+.advxsrchlogo {
+    margin-left: 0;
+    height: 30px;
+}
+.topbarxadvsrch {
+    padding: 10px;
+    display: flex;
+    background-color: rgba(207, 206, 206, 0.815);
+}
+form div div {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.advLab{
+    width: 183px;
+    height: 42px;
+    text-align: left;
+    font-size: 12px;
+}
+.advLab2{
+    width: 570px;
+    height: 41px;
+}
+.advInp{
+    width: 570px;
+    height: 29px;
+}
+.advComm{
+    width: 370px;
+    height: 30px;
+    font-size: 10px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+}
+.spncls{
+    width: 199px;
+    height: 13px;
+    font-size: 10px;
+}
